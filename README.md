@@ -26,17 +26,19 @@ or
 - To add the chat widget to your application, import the ChatWidget component.
 
 In your main App.js, App.tsx, or any other component
-<pre>
-  import React from 'react';
-  import { ChatWidget } from 'contentstack-chat-sdk'
+```jsx
+import React from 'react';
+import { ChatWidget } from 'contentstack-chat-sdk'
 
-  export const App() => {
-    return(
-        <>
-          Main Content
-            <ChatWidge apiEndpoint = "http://your-backend/chat" collectionName = "your-agent-key" />
-        </>
-</pre>
+export const App = () => {
+  return (
+    <>
+      Main Content
+      <ChatWidget apiEndpoint="http://your-backend/chat" collectionName="your-agent-key" />
+    </>
+  )
+}
+```
 **Component Props**
 The ChatWidget component accepts the following props:
 
