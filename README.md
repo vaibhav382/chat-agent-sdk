@@ -34,7 +34,7 @@ In your main App.js, App.tsx, or any other component
     return(
         <>
           Main Content
-            <ChatWidget apiEndpoint = "http://your-backend/chat" collectionName = "your-agent-key" />
+            <ChatWidge apiEndpoint = "http://your-backend/chat" collectionName = "your-agent-key" />
         </>
 </pre>
 **Component Props**
