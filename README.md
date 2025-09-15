@@ -33,7 +33,7 @@ import { ChatWidget } from 'contentstack-chat-sdk'
 export const App = () => {
   return (
     <>
-      Main Content
+      <p>Main Content</p>
       <ChatWidget apiEndpoint="http://your-backend/chat" collectionName="your-agent-key" />
     </>
   )
