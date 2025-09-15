@@ -33,10 +33,8 @@ import { ChatWidget } from 'contentstack-chat-sdk';
 function App() {
   return (
     <div>
-      <p>This is the main content of my page. The chat widget will appear in the corner.</p>
       <ChatWidget apiEndpoint="https://your-backend-api.com/chat"
-        collectionName="my-unique-collection-name"
-      />
+        collectionName="my-unique-collection-name" />
     </div>
   );
 }
