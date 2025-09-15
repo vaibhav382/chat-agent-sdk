@@ -32,10 +32,10 @@ In your main App.js, App.tsx, or any other component
 
   export const App() => {
     return(
-        <div>
+        <>
           Main Content
             <ChatWidget apiEndpoint = "http://your-backend/chat" collectionName = "your-agent-key" />
-        </div>
+        </>
 </pre>
 **Component Props**
 The ChatWidget component accepts the following props:
