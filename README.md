@@ -34,7 +34,6 @@ function App() {
     <div>
       <h1>My Awesome Website</h1>
       <p>This is the main content of my page. The chat widget will appear in the corner.</p>
-
       <ChatWidget
         apiEndpoint="[https://your-backend-api.com/chat](https://your-backend-api.com/chat)"
         collectionName="my-unique-collection-name"
