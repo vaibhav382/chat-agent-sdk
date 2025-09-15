@@ -27,17 +27,7 @@ or
 
 In your main App.js, App.tsx, or any other component
 
-<pre>import React from 'react';
-import { ChatWidget } from 'contentstack-chat-sdk';
 
-function App() {
-  return (
-    <div>
-    </div>
-  );
-}
-
-export default App;</pre>
 
 **Component Props**
 The ChatWidget component accepts the following props:
