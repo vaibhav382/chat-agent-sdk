@@ -2,6 +2,7 @@
 A lightweight, plug-and-play React component library for adding a powerful, AI-driven chatbot to any website using Contentstack as a content source.
 
 This SDK provides a beautiful chat widget that connects to a custom backend API, allowing you to create domain-specific chat agents powered by your own Contentstack data.
+**npm package-** https://www.npmjs.com/package/contentstack-chat-sdk
 
 ## Features
 1. **Easy Integration:** Add a full-featured chat widget to your React app with a single component.
