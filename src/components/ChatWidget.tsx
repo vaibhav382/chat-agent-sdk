@@ -10,7 +10,7 @@ interface ChatWidgetProps {
 export const ChatWidget: React.FC<ChatWidgetProps> = ({
   apiEndpoint,
   collectionName,
-  widgetTitle = "Chat Assistant",
+  widgetTitle = "chatSwitch",
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({
